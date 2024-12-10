@@ -15,4 +15,5 @@ class Solution:
                 else:
                     index_to_remove = l - i
                     s = s[:index_to_remove] + s[index_to_remove+1:]
+                l = len(s)-1
         return True
